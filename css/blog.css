@@ -1,0 +1,151 @@
+html,body{
+    overflow-x: hidden;
+}
+
+.blog_post{
+	background-color: #fff;
+	padding: 50px;
+	margin-top: 50px;
+}
+
+figcaption {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+.post_section img{
+	object-fit: cover;
+	width: 100%;
+	height: 500px;
+}
+
+.post_section iframe{
+	display:block;
+	margin: 0 auto;
+}
+
+.post_section h1{
+	font-size: 35px;
+	font-family: 'Sofia', cursive;
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.post_section h3{
+	text-align: center;
+}
+
+.post_section p span{
+	margin: 0px 15px;
+	border-left: 1px solid #000;
+}
+
+.post_section p{
+	padding-top: 10px;
+}
+
+blockquote {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px;
+}
+
+.recipe_instructions p{
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.recipe_instructions h3{
+	font-size: 24px;
+	font-family: 'Sofia', cursive;
+	text-align: center;
+	padding: 10px;
+}
+
+.recipe_instructions ul{
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px;
+	list-style:none;
+	text-align: center;
+}
+
+.recipe_instructions ol{
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px;
+	list-style-position:inside;
+	text-align: center;
+}
+
+.blog_social h3{
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Sofia', cursive;	
+}
+
+.post_social{
+    width: 100%;
+	text-align: center; 
+}
+
+.post_social i{
+	color: #000;
+	padding-right: 5px;
+} 
+
+.post_social i:hover{
+	color: #463a3a;
+} 
+
+.author_info img{
+	display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px;
+}
+
+.author_info p{
+	float: right;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 1200px) {
+
+.blog_post{
+    padding: 0px;
+	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+  }
+  
+.post_section img, iframe{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.author_info img{
+	display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px;
+}
+
+  
+}
